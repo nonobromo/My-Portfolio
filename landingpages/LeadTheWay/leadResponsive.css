@@ -1,0 +1,134 @@
+@media (min-width:280px) and (max-width:767px) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container .area-one {
+        width: 100vw;
+        height: 40vh;
+        margin: auto;
+        background-image: url(Path\ 15.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .area-one img {
+        display: none;
+    }
+
+    .text-area {
+        width: 280px;
+    }
+
+    .text-area h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .text-area h2 {
+        font-size: 14px;
+        text-align: center;
+        width: 280px;
+    }
+
+    .area-two {
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+
+    .area-two form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cell-one {
+        margin-top: 20px;
+    }
+
+    .cell-one input {
+        width: 270px;
+        height: 40px;
+        background-color: #F6F6F6;
+        border-bottom: 3px solid #D3E10E;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+
+
+    .cell-two input {
+        width: 270px;
+        background-color: #D3E10E;
+        font-size: 20px;
+        border: none;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container .area-one {
+        width: 100vw;
+        height: 70vh;
+        margin: auto;
+        background-image: url(Path\ 15.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .area-one img {
+        display: none;
+    }
+
+    .text-area {
+        margin-bottom: 100px;
+    }
+
+    .text-area h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .container .area-two {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .area-two form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+    .cell-one label {
+        font-size: 1.5rem;
+    }
+
+
+    .cell-two input {
+        width: 400px;
+        background-color: #D3E10E;
+        font-size: 20px;
+        border: none;
+    }
+}

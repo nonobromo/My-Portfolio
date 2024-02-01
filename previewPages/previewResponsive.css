@@ -1,0 +1,241 @@
+@media screen and (min-width:290px) and (max-width:767px) {
+
+    .top {
+        height: 300px;
+        background-color: #111;
+        position: relative;
+    }
+
+    .text {
+        width: 75vw;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        margin: auto;
+        inset: 0;
+        flex-direction: column;
+    }
+
+    .text h1 {
+        color: white;
+        text-align: center;
+        width: 75vw;
+        font-size: 3rem;
+        margin-top: 40px;
+    }
+
+    .text h2 {
+        color: white;
+        width: 75vw;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .text h3 {
+        color: #999;
+        text-align: center;
+        width: 75vw;
+        font-size: 1rem;
+    }
+
+    .middle {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle .links {
+        display: flex;
+        justify-content: center;
+        width: 360px;
+    }
+
+    .links .link-box {
+        width: 360px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links .link-view {
+        text-decoration: none;
+        color: #111;
+        background-color: #0DC957;
+        width: 110px;
+        height: 40px;
+        font-size: 10pt;
+    }
+
+    .links .link-down {
+        border: 2px solid #0DC957;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #0DC957;
+        width: 180px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .bottom {
+        height: 300px;
+    }
+
+    .bottom .img-area {
+        width: 360px;
+        height: 300px;
+    }
+
+    .img-area img {
+        width: 360px;
+        height: 200px;
+    }
+
+    .credits h3 {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1400px) {
+    .top {
+        height: 300px;
+        background-color: #111;
+        position: relative;
+    }
+
+    .text {
+        width: 75vw;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        margin: auto;
+        inset: 0;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .text h1 {
+        color: white;
+        text-align: center;
+        width: 75vw;
+        font-size: 5rem;
+        margin-top: 40px;
+    }
+
+    .text h2 {
+        width: 75vw;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .text h3 {
+        color: #999;
+        text-align: center;
+        width: 75vw;
+        font-size: 1rem;
+    }
+
+    .middle .links {
+        display: flex;
+        justify-content: center;
+        width: 75vw;
+    }
+
+    .bottom .img-area {
+        width: 600px;
+        height: 300px;
+    }
+
+    .img-area img {
+        width: 600px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:280px) {
+    .text {
+        width: 280px;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+        text-align: center;
+        width: 280px;
+    }
+
+    .text h2 {
+        font-size: 1rem;
+        text-align: center;
+        width: 280px;
+    }
+
+    .text h3 {
+        width: 280px;
+        text-align: center;
+    }
+
+    .middle .links {
+        display: flex;
+        justify-content: center;
+        width: 280px;
+    }
+
+    .links .link-box {
+        width: 280px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links .link-view {
+        text-decoration: none;
+        color: #111;
+        background-color: #0DC957;
+        width: 110px;
+        height: 40px;
+        font-size: 10pt;
+    }
+
+    .links .link-down {
+        border: 2px solid #0DC957;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #0DC957;
+        width: 180px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .bottom {
+        height: 280px;
+    }
+
+    .bottom .img-area {
+        width: 280px;
+        height: 200px;
+    }
+
+    .img-area img {
+        width: 280px;
+        height: 150px;
+    }
+
+    .social {
+        width: 280px;
+    }
+
+    .credits {
+        width: 280px;
+    }
+
+    .credits h3 {
+        font-size: .9rem;
+        width: 280px;
+        text-align: center;
+    }
+}

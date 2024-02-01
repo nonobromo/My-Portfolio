@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="response.css">
+</head>
+
+<body>
+    <header>
+        <h1>Colors</h1>
+        <h2>Everything is better with colors</h2>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" id="btn-one" class="nav-link">Normal</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" id="btn-two" class="nav-link">RGB</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" id="btn-three" class="nav-link">Hexodecimal</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="area-one" id="hide-one">
+            <div class="color-btn">
+                <h3>Normal Colors</h3>
+                <p class="explain">Sometimes we describe a color other then it might being red, blue or green. Sometimes
+                    we use daily
+                    words or connect them with a color. Something like darkblue, or peach.</p>
+                <button class="btn-press" id="btn-normal">Normal Colors</button>
+            </div>
+            <div class="color-show" id="normal-color-area">
+                <p id="show-color-one" class="color-showcase"></p>
+            </div>
+        </div>
+
+        <div class="area-two" id="hide-two">
+            <div class="color-btn">
+                <h3>RGB Colors</h3>
+                <p class="explain">The RGB colour model is an additive color model in which the red, green and blue
+                    primary colors
+                    of
+                    light are added
+                    together in various ways to reproduce a broad array of colors. The name of the model comes from
+                    the
+                    initials of the
+                    three additive primary colors, red, green, and blue</p>
+                <form action="" class="only-form">
+                    <label for="r">R</label>
+                    <input type="range" min="0" max="255" id="get" onmousemove="fetch()" name="r">
+                    <input type="text" id="put">
+                    <br>
+                    <label for="g">G</label>
+                    <input type="range" min="0" max="255" id="getTwo" onmousemove="fetch()" name="g">
+                    <input type="text" id="putTwo">
+                    <br>
+                    <label for="b">B</label>
+                    <input type="range" min="0" max="255" id="getThree" onmousemove="fetch()" name="b">
+                    <input type="text" id="putThree">
+
+            </div>
+            <div class="color-show" id="rgb-color-area">
+                <p id="show-color-two" class="color-showcase"></p>
+            </div>
+        </div>
+
+        <div class="area-three" id="hide-three">
+            <div class="color-btn">
+                <h3>Hexodecimal Colors</h3>
+                <p class="explain">using RGB triplets. i.e. #ff0000, #ffff00, #00ff00. Each set of two characters
+                    represents the colors Red, Green, and
+                    Blue respectively.</p>
+                <button type="button" class="btn-press" id="hexo">Hexodecimal Colors</button>
+            </div>
+            <div class="color-show" id="hexo-color-area">
+                <p class="color-showcase" id="show-color-three"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

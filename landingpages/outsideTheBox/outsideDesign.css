@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    border-bottom: 20px solid #0EE1E1;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 2000px;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-color: #0EE1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.text h1 {
+    text-align: right;
+    font-size: 60px;
+}
+
+.text p {
+    font-size: 1.25rem;
+    width: 800px;
+    text-align: right;
+}
+
+.box-img {
+    margin-left: 140px;
+}
+
+.whatsapp {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    width: 99vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.services .box {
+    width: 400px;
+    height: 350px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 1.8rem;
+    color: #0EE1E1;
+}
+
+.box p {
+    font-size: 1rem;
+    width: 300px;
+}
+
+.map {
+    height: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.map-area {
+    width: 55%;
+    height: 100%;
+    background-color: #0EE1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-area iframe {
+    width: 800px;
+    height: 800px;
+}
+
+.form-area {
+    width: 45%;
+    height: 100%;
+    background-color: #F0FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-area {
+    width: 450px;
+    height: 600px;
+}
+
+.box-area h3 {
+    font-size: 3rem;
+    color: #090909;
+    text-align: right;
+}
+
+.box-area p {
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+form {
+    width: 450px;
+    height: 450px;
+    text-align: right;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form .cell-one {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.cell-one input {
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-bottom: 5px solid #0EE1E1;
+    background-color: #E5EEFF;
+}
+
+form .fill {
+    display: flex;
+    flex-direction: column;
+}
+
+.fill textarea {
+    height: 150px;
+    border: none;
+    border-bottom: 5px solid #0EE1E1;
+    resize: none;
+    background-color: #E5EEFF;
+}
+
+.submit input {
+    width: 450px;
+    height: 50px;
+    background-color: #0EE1E1;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.social {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-box {
+    width: 90px;
+    height: 90px;
+    background-color: #0EE1E1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-box img {
+    width: 40px;
+    height: 40px;
+}

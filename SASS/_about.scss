@@ -1,0 +1,51 @@
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    background-color: #0B2C18;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.about h2 {
+    font-weight: 300;
+    font-size: 3em;
+    color: white;
+}
+
+.about p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    width: 800px;
+    color: white;
+}
+
+.resume-down {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    background-color: darkseagreen;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.resume-down:hover {
+    color: white;
+    transition: 400ms;
+}

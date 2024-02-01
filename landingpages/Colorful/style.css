@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Playpen+Sans:wght@500&family=Poppins:wght@200&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    background-color: #44AAF2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24pt;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link:hover {
+    color: #666;
+    transition: 400ms ease-in-out;
+}
+
+.container {
+    height: 85vh;
+    width: 100%;
+    background-color: #EEF5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .color-show,
+.color-showcase {
+    font-size: 36pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-press {
+    font-size: 36pt;
+}
+
+.color-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 16pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
+.area-one {
+    width: 50%;
+    height: 65%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.area-one .color-btn,
+.color-show {
+
+    width: 100%;
+    height: 100%;
+}
+
+.area-two {
+    width: 50%;
+    height: 65%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.area-two .color-btn,
+.color-show {
+
+    width: 100%;
+    height: 100%;
+}
+
+.area-three {
+    width: 50%;
+    height: 65%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.area-three .color-btn,
+.color-show {
+
+    width: 100%;
+    height: 100%;
+}
+
+.color-showcase {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #1F3A93;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social .social-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.social .social-box:hover {
+    background-color: #3498DB;
+    transition: 200ms;
+}

@@ -1,0 +1,220 @@
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1600px) {
+    header h2 {
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    .navbar {
+        font-size: 12pt;
+        margin: 5px;
+    }
+
+    .social {
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .area-one {
+        width: 80%;
+        height: 80vh;
+    }
+
+    .area-two {
+        width: 80%;
+        height: 80%;
+    }
+
+    .area-two p {
+        font-size: 12pt;
+    }
+
+    .area-three {
+        width: 80%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    header h2 {
+        font-size: 22px;
+    }
+
+    .nav-menu a {
+        font-size: 20pt;
+    }
+
+    .btn-press {
+        font-size: 24pt;
+    }
+}
+
+
+@media (min-width:290px) and (max-width:765px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        right: 0px;
+    }
+
+    .area-one {
+        width: 100%;
+    }
+
+    .area-one p {
+        font-size: 12pt;
+    }
+
+    .area-one button {
+        font-size: 24px;
+    }
+
+    .area-two {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .area-two p {
+        font-size: 10pt;
+    }
+
+    .area-two .color-btn input {
+        width: 160px;
+    }
+
+    .color-show p {
+        font-size: 24pt;
+    }
+
+    .area-three {
+        width: 100%;
+        height: 90%;
+    }
+
+    .area-three button {
+        font-size: 24pt;
+    }
+}
+
+/* galaxy fold responsivenes */
+
+@media screen and (max-width:280px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        right: 0px;
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .explain {
+        font-size: 12pt;
+    }
+
+    .area-one {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .area-two {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .area-three {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .btn-press {
+        font-size: 12pt;
+    }
+}
+
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}

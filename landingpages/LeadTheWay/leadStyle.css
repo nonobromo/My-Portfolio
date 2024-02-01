@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .area-one {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-one img {
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+
+}
+
+.area-one .text-area {
+    position: absolute;
+}
+
+.text-area h1 {
+    font-size: 5rem;
+    text-align: right;
+    color: #D3E10E;
+}
+
+.text-area h2 {
+    text-align: right;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    color: #F9F9F9;
+}
+
+.container .area-two {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-two form {
+    display: flex;
+    width: 1200px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.cell-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell-one label {
+    text-align: right;
+}
+
+.cell-one input {
+    width: 400px;
+    height: 40px;
+    background-color: #F6F6F6;
+    border-bottom: 3px solid #D3E10E;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.cell-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.cell-two input {
+    width: 150px;
+    height: 40px;
+    background-color: #D3E10E;
+    border: none;
+    font-size: 1rem;
+}

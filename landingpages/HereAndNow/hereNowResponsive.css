@@ -1,0 +1,216 @@
+/* רספוסיביות לטלפונים */
+
+@media (min-width:300px) and (max-width:767px) {
+
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .text-content {
+        height: 45vh;
+        margin-top: 120px;
+    }
+
+    .text-content h1 {
+        font-size: 4rem;
+        text-align: center;
+        width: 300px;
+    }
+
+    .text-content h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .text-content p {
+        text-align: center;
+        font-size: 1rem;
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    .container .form-area {
+        width: 80vw;
+        height: 40vh;
+        margin-bottom: 120px;
+    }
+
+    .form-area form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    form .cell-one input {
+        margin-top: 5px;
+        width: 300px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-two input {
+        margin-top: 5px;
+        width: 300px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-two {
+        margin-top: 20px;
+    }
+
+    form .cell-three input {
+        width: 300px;
+    }
+}
+
+/* 
+רספונסיביות לטאבלטים */
+
+@media (min-width: 768px) and (max-width:1400px) {
+    body {
+        display: flex;
+        /* height: 100vh; */
+    }
+
+    .container {
+        width: 80vw;
+        height: 100vh;
+        margin: auto;
+    }
+
+    .container .text-content {
+        width: 70vw;
+        height: 50vh;
+    }
+
+
+    .text-content h1 {
+        font-size: 5rem;
+    }
+
+    .text-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .text-content p {
+        font-size: 1.1em;
+        width: 300px;
+        text-align: center;
+    }
+
+    .container .form-area {
+        width: 70vw;
+        height: 30vh;
+        margin-top: 0;
+    }
+
+
+    .form-area form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form .cell-two {
+        margin-top: 20px;
+    }
+
+    form .cell-one,
+    .cell-two label {
+        font-size: 2rem;
+        color: white;
+    }
+
+    form .cell-one input {
+        margin-top: 5px;
+        width: 400px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-two input {
+        margin-top: 5px;
+        width: 400px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-three input {
+        width: 400px;
+        height: 40px;
+        font-size: 1.5em;
+    }
+}
+
+/* רספונסיביות ל galaxy fold */
+
+@media (max-width:280px) {
+    .container {
+        width: 80vw;
+        height: 90vh;
+        margin: auto;
+    }
+
+    .text-content h1 {
+        font-size: 3rem;
+    }
+
+    .text-content h2 {
+        font-size: 1rem;
+    }
+
+    .text-content p {
+        font-size: 1.1em;
+        width: 200px;
+        text-align: center;
+    }
+
+    .container .form-area {
+        width: 70vw;
+        height: 40vh;
+        margin-top: 60px;
+    }
+
+    .form-area form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form .cell-one input {
+        margin-top: 5px;
+        width: 200px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-two input {
+        margin-top: 5px;
+        width: 200px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+}

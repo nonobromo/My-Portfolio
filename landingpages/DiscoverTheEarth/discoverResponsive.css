@@ -1,0 +1,155 @@
+@media (min-width: 290px) and (max-width: 1300px) {
+    .container {
+        grid-template-columns: repeat(2, 180px);
+        grid-template-rows: repeat(12, 180px);
+        gap: 10px;
+        margin: auto;
+        padding-top: 0;
+    }
+
+    img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .box1 {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    .box1 h1 {
+        font-size: 2rem;
+    }
+
+    .box1 h2 {
+        font-size: 1rem;
+        width: 220px;
+    }
+
+
+    .box10 {
+        grid-column: 1/3;
+        grid-row: 7/10;
+    }
+
+    .box10 h3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+
+    .box10 p {
+        font-size: 1rem;
+        width: 220px;
+    }
+
+    .box10 form {
+        margin-top: 25px;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fname input,
+    .mail input {
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-bottom: 5px solid #0EE1DA;
+    }
+
+
+    .write textarea {
+        width: 300px;
+        height: 150px;
+        border: none;
+        border-bottom: 5px solid #0EE1DA;
+        resize: none;
+    }
+
+    .submit input {
+        width: 300px;
+        height: 40px;
+        background-color: #0EE1DA;
+        color: #020253;
+        font-size: 1.5em;
+    }
+}
+
+/* media query for galaxy fold */
+
+@media (max-width: 280px) {
+    .container {
+        grid-template-columns: repeat(2, 130px);
+        grid-template-rows: repeat(12, 130px);
+        gap: 10px;
+        margin: auto;
+        padding-top: 0;
+    }
+
+    img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .box1 {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    .box1 h1 {
+        font-size: 2rem;
+    }
+
+    .box1 h2 {
+        font-size: 1rem;
+        width: 220px;
+    }
+
+
+    .box10 {
+        grid-column: 1/3;
+        grid-row: 7/10;
+    }
+
+    .box10 h3 {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+
+    .box10 p {
+        font-size: .8rem;
+        width: 220px;
+    }
+
+    .box10 form {
+        margin-top: 10px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fname input,
+    .mail input {
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-bottom: 5px solid #0EE1DA;
+    }
+
+    .write textarea {
+        width: 200px;
+        height: 100px;
+        border: none;
+        border-bottom: 5px solid #0EE1DA;
+        resize: none;
+    }
+
+    .submit input {
+        width: 200px;
+        height: 35px;
+        background-color: #0EE1DA;
+        color: #020253;
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+}

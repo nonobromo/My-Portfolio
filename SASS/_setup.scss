@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.logo {
+    width: 100px;
+}
+
+.bgc-fistuk {
+    background-color: #0DC957;
+}
+
+.justify {
+    width: 100vw;
+}
+
+.navbar-brand {
+    margin-left: 400px
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: auto;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+}

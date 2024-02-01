@@ -1,0 +1,44 @@
+.footer {
+    height: 100px;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.name-sz {
+    margin-left: 20px;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+}
+
+.social img:hover {
+    border-radius: 100%;
+    background-color: #0DC957;
+    transition: 400ms;
+}
+
+.credits {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.credits h3 {
+    font-size: 1rem;
+    color: #fff;
+}

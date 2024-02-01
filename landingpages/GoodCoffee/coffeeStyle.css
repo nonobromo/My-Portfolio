@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container .area-one {
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-one .page-content {
+    width: 440px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.page-content h1 {
+    color: #020253;
+    font-size: 2.6875em;
+    text-align: right;
+}
+
+.page-content h2 {
+    color: #020253;
+    text-align: right;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.cell-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell-two {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cell-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell-one label,
+.cell-two label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.cell-three label {
+    display: block;
+}
+
+.cell-one input,
+.cell-two input {
+    width: 440px;
+    height: 40px;
+    background-color: #E5EEFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #020253;
+}
+
+.cell-three {
+    margin-top: 20px;
+}
+
+.cell-three input {
+    width: 200px;
+    height: 40px;
+    background-color: #020253;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.area-two img {
+    width: 55vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
