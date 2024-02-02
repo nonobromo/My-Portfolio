@@ -39,7 +39,7 @@
     }
 
     .service {
-        height: 3300px;
+        height: 3600px;
     }
 
     .portfolio-items {
@@ -47,10 +47,11 @@
         margin: auto;
         display: grid;
         grid-template-columns: repeat(1, 300px);
-        grid-template-rows: repeat(7, 400px);
+        grid-template-rows: repeat(8, 400px);
     }
 
-    .box-extra {
+    .box-extra,
+    .box-last {
         grid-column: 1;
     }
 
@@ -167,7 +168,7 @@
     }
 
     .service {
-        height: 3300px;
+        height: 3700px;
     }
 
     .portfolio-items {
