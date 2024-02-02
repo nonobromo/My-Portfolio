@@ -450,7 +450,7 @@ form .cell-one,
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 200px);
-    grid-template-rows: repeat(7, 400px);
+    grid-template-rows: repeat(8, 400px);
   }
   .box-extra {
     grid-column: 1;
