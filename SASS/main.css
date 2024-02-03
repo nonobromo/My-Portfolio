@@ -311,7 +311,7 @@ form .cell-one,
   color: #fff;
 }
 
-@media (min-width: 300px) and (max-width: 1400px) {
+@media (min-width: 300px) and (max-width: 1300px) {
   .navbar-brand {
     margin-left: 0px;
   }
@@ -342,7 +342,7 @@ form .cell-one,
     width: 300px;
   }
   .service {
-    height: 3600px;
+    height: 3700px;
   }
   .portfolio-items {
     width: 300px;
@@ -403,6 +403,23 @@ form .cell-one,
   }
   .credits h3 {
     font-size: 1rem;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1600px) {
+  .service {
+    height: 1200px;
+  }
+  .portfolio-items {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(4, 400px);
+    margin-top: 60px;
+  }
+  .portfolio-items .box .item-img {
+    width: 300px;
+    height: 200px;
   }
 }
 @media (max-width: 280px) {
