@@ -37,8 +37,9 @@
 .page-content h2 {
     color: #020253;
     text-align: right;
-    font-size: 22px;
+    font-size: 1.375em;
     margin-top: 20px;
+    direction: rtl;
 }
 
 form {

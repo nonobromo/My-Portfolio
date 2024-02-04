@@ -54,6 +54,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     width: 1028px;
     height: 60px;
+    direction: rtl;
 }
 
 .container .form-area {

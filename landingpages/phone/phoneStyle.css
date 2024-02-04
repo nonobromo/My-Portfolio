@@ -76,6 +76,7 @@
     font-size: 1.25rem;
     color: #020253;
     font-weight: bold;
+    direction: rtl;
 }
 
 .form-area {
