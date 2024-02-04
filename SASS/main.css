@@ -161,10 +161,10 @@ html {
 }
 
 .portfolio-items {
-  width: 1680px;
+  width: 1480px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 400px);
+  grid-template-columns: repeat(4, 350px);
   grid-template-rows: repeat(2, 400px);
   gap: 20px;
   margin-top: 160px;
@@ -191,7 +191,7 @@ html {
 }
 
 .box .item-img {
-  width: 400px;
+  width: 350px;
   height: 200px;
   border-radius: 16px 16px 0 0;
 }
