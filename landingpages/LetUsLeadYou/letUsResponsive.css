@@ -57,7 +57,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1400px),
+@media (min-width: 768px) and (max-width: 1600px),
 screen and (max-height:600px) {
     .img-hide {
         display: none;
