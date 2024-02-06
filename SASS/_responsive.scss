@@ -1,6 +1,6 @@
 // media for moblie and tablets
 
-@media (min-width: 300px) and (max-width:1300px) {
+@media (min-width: 300px) and (max-width:1023px) {
     .navbar-brand {
         margin-left: 0px
     }
@@ -121,17 +121,21 @@
 
 // service div area width change 
 
-@media (min-width: 1300px) and (max-width:1600px) {
+@media (min-width: 1024px) and (max-width:1600px) {
+    .navbar-brand {
+        margin-left: 0px
+    }
+
     .service {
-        height: 1200px;
+        height: 2000px;
     }
 
     .portfolio-items {
-        width: 1240px;
+        width: 640px;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(4, 300px);
-        grid-template-rows: repeat(4, 400px);
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(3, 400px);
         margin-top: 60px;
     }
 
