@@ -161,7 +161,7 @@ html {
 }
 
 .portfolio-items {
-  width: 1480px;
+  max-width: 1480px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 350px);
