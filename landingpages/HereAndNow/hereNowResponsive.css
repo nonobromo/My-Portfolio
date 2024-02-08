@@ -1,8 +1,6 @@
 /* רספוסיביות לטלפונים */
 
 @media (min-width:300px) and (max-width:767px) {
-
-
     .container {
         width: 100vw;
         height: 100vh;
@@ -82,18 +80,19 @@
 @media (min-width: 768px) and (max-width:1400px) {
     body {
         display: flex;
-        /* height: 100vh; */
+        height: 600px;
+        overflow-x: hidden;
     }
 
     .container {
         width: 80vw;
-        height: 100vh;
+        height: 100%;
         margin: auto;
     }
 
     .container .text-content {
         width: 70vw;
-        height: 50vh;
+        height: 60%;
     }
 
 
@@ -113,7 +112,7 @@
 
     .container .form-area {
         width: 70vw;
-        height: 30vh;
+        height: 40%;
         margin-top: 0;
     }
 
