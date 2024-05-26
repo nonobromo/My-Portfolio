@@ -3,56 +3,56 @@
         "imgSrc": "portfolioImages/ticTacToe.png",
         "projectTitle": "Tic Tac Toe",
         "description": "A Simple game of Tic Tac Toe",
-        "link": "/previewPages/TicTac.html",
+        "link": "previewPages/TicTac.html",
         "btnText": "Project Page"
     },
     {
         "imgSrc": "portfolioImages/MemoryGame.png",
         "projectTitle": "Memory Game",
         "description": "Match pairs of emojis",
-        "link": "/previewPages/memoryGame.html",
+        "link": "previewPages/memoryGame.html",
         "btnText": "Project Page"
     },
     {
         "imgSrc": "portfolioImages/snake.png",
         "projectTitle": "Snake",
         "description": "The Classic Snake game",
-        "link": "/previewPages/snake.html",
+        "link": "previewPages/snake.html",
         "btnText": "Project Page"
     },
     {
         "imgSrc": "portfolioImages/learnMath.png",
         "projectTitle": "Math Game",
         "description": "4 Operator math solving game",
-        "link": "/previewPages/math.html",
+        "link": "previewPages/math.html",
         "btnText": "Project Page"
     },
     {
         "imgSrc": "portfolioImages/pokedex.png",
         "projectTitle": "Pokedex",
         "description": "Showcase of all pokemon by types",
-        "link": "/previewPages/pokemon.html",
+        "link": "previewPages/pokemon.html",
         "btnText": "Project Page"
     },
     {
         "imgSrc": "portfolioImages/Wordle.png",
         "projectTitle": "Wordle",
         "description": "Word guessing game",
-        "link": "/previewPages/wordle.html",
+        "link": "previewPages/wordle.html",
         "btnText": "Project Page"
     },
     {
         "imgSrc": "portfolioImages/pageBuilder.png",
         "projectTitle": "Page Builder",
         "description": "Dynamic Page Builder",
-        "link": "/previewPages/pageBuild.html",
+        "link": "previewPages/pageBuild.html",
         "btnText": "Project Page"
     },
     {
         "imgSrc": "portfolioImages/country.png",
         "projectTitle": "Countries API",
         "description": "An API Based all countries of the world",
-        "link": "/previewPages/countires.html",
+        "link": "previewPages/countires.html",
         "btnText": "Project Page"
     }
 ]
