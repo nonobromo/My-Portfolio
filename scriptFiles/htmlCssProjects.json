@@ -1,0 +1,58 @@
+[
+    {
+        "imgSrc": "portfolioImages/hereandnow.png",
+        "projectTitle": "Here and Now",
+        "description": "Landing Page One",
+        "link": "previewPages/hereAndNowPreview.html",
+        "btnText": "Project Page"
+    },
+    {
+        "imgSrc": "portfolioImages/letusleadyou.png",
+        "projectTitle": "Let Us Lead You",
+        "description": "Landing Page Two",
+        "link": "previewPages/letUsLeadYouPreview.html",
+        "btnText": "Project Page"
+    },
+    {
+        "imgSrc": "portfolioImages/Coffee page.png",
+        "projectTitle": "Coffee Break",
+        "description": "Landing Page Three",
+        "link": "previewPages/coffeePreview.html",
+        "btnText": "Project Page"
+    },
+    {
+        "imgSrc": "portfolioImages/thinkingForward.png",
+        "projectTitle": "Leading Forward",
+        "description": "Landing Page Four",
+        "link": "previewPages/leadingForwardPreview.html",
+        "btnText": "Project Page"
+    },
+    {
+        "imgSrc": "portfolioImages/discover.png",
+        "projectTitle": "Discover the World",
+        "description": "Landing page Five",
+        "link": "previewPages/discoverTheWorldPreview.html",
+        "btnText": "Project Page"
+    },
+    {
+        "imgSrc": "portfolioImages/outside.png",
+        "projectTitle": "Outsite The Box",
+        "description": "Landing Page Six",
+        "link": "previewPages/outsideTheBox.html",
+        "btnText": "Project Page"
+    },
+    {
+        "imgSrc": "portfolioImages/freeAdvice.png",
+        "projectTitle": "Free Advice",
+        "description": "Landing Page Seven",
+        "link": "previewPages/freeAdvicePreview.html",
+        "btnText": "Project Page"
+    },
+    {
+        "imgSrc": "portfolioImages/Colors.png",
+        "projectTitle": "Colorful",
+        "description": "Javascript based Project",
+        "link": "previewPages/colorsPreview.html",
+        "btnText": "Project Page"
+    }
+]

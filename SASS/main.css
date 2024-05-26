@@ -8,6 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+  background-color: #111111 !important;
+}
+
 .container-fluid {
   padding: 0 !important;
 }
@@ -160,6 +165,17 @@ html {
   margin-top: 20px;
 }
 
+.navi-btn {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn > img {
+  width: 32px;
+}
+
 .portfolio-items {
   max-width: 1480px;
   margin: auto;
@@ -168,6 +184,10 @@ html {
   grid-template-rows: repeat(2, 400px);
   gap: 20px;
   margin-top: 160px;
+}
+
+.jsProjects {
+  display: none;
 }
 
 .box {
@@ -196,6 +216,24 @@ html {
   border-radius: 16px 16px 0 0;
 }
 
+.fade-in {
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .form-area {
   height: 800px;
   background-color: #111;
