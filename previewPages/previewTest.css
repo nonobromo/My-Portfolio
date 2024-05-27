@@ -128,29 +128,24 @@ body {
     height: 700px;
     background-color: #111;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    margin: auto;
 }
 
 .bottom .img-area {
-    margin: auto;
-    inset: 0;
-    position: absolute;
-    width: 1300px;
+    width: 1400px;
     height: 600px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .img-area img {
     width: 1300px;
     height: 600px;
-}
-
-.bottom2 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.bottom2>.img-area2 img {
-    width: 650px;
-    height: 600px;
+    margin: auto;
 }
 
 .footer {
