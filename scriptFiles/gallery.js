@@ -2,8 +2,6 @@
 
 class Gallery {
 
-
-
     imgElem = document.createElement("img");
     images = [];
     currentImg = 0;
