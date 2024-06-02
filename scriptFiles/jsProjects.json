@@ -59,7 +59,7 @@
         "imgSrc": "portfolioImages/war.png",
         "projectTitle": "War Card Game",
         "description": "OOP Based Card Game",
-        "link": "/previewPages/cardGame.html",
+        "link": "previewPages/cardGame.html",
         "btnText": "Project Page"
     }
 ]

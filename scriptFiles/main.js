@@ -34,5 +34,5 @@ JS_BTN.addEventListener("click", () => {
         }
     }
     setTimeout(createJsCards, 200)
-    HTML_ITEMS.classList.remove("fade-in")
+    JS_ITEMS.classList.remove("fade-in")
 })
