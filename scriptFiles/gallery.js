@@ -45,7 +45,7 @@ class Gallery {
     }
 
     showImg() {
-        this.imgElem.src = `/portfolioImages/${this.images[this.currentImg]}`;
+        this.imgElem.src = `../portfolioImages/${this.images[this.currentImg]}`;
     }
 
 }

@@ -129,7 +129,7 @@ body {
     background-color: #111;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 1400px;
     margin: auto;
