@@ -1,6 +1,7 @@
 export function createJsCards() {
     const JS_ITEMS = document.querySelector(".js-items")
     const serviceDiv = document.querySelector(".service");
+
     serviceDiv.style.height = "1600px"
     fetch("./scriptFiles/jsProjects.json")
         .then(res => res.json())
