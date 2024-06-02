@@ -1,5 +1,7 @@
 export function createJsCards() {
-    const JS_ITEMS = document.querySelector(".portfolio-items")
+    const JS_ITEMS = document.querySelector(".js-items")
+    const serviceDiv = document.querySelector(".service");
+    serviceDiv.style.height = "1600px"
     fetch("./scriptFiles/jsProjects.json")
         .then(res => res.json())
         .then(data => {
@@ -12,7 +14,7 @@ export function createJsCards() {
 
                 const itemImg = document.createElement("img");
                 itemImg.src = d.imgSrc
-                itemImg.classList.add("item-img")
+                itemImg.classList.add("item-img-js")
 
                 const projTitle = document.createElement("h3");
                 const projDesciption = document.createElement("p")

@@ -1,4 +1,7 @@
 @media screen and (min-width:290px) and (max-width:767px) {
+    body {
+        overflow-x: hidden;
+    }
 
     .top {
         height: 300px;
@@ -81,12 +84,13 @@
 
     .bottom {
         height: 300px;
-        width: 460px;
+        width: 360px;
     }
 
     .bottom .img-area {
         width: 360px;
         height: 300px;
+        margin: auto;
     }
 
     .img-area img {
@@ -144,6 +148,10 @@
         display: flex;
         justify-content: center;
         width: 75vw;
+    }
+
+    .bottom {
+        width: 600px;
     }
 
     .bottom .img-area {

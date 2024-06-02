@@ -1,5 +1,5 @@
 .service {
-    height: 1400px;
+    height: 1500px;
     background-color: #111;
 }
 
@@ -43,6 +43,16 @@
     margin-top: 160px;
 }
 
+.js-items {
+    width: 1140px;
+    margin: auto;
+    display: none;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 350px);
+    gap: 120px;
+    margin-top: 30px;
+}
+
 .jsProjects {
     display: none;
 }
@@ -70,6 +80,12 @@
 .box .item-img {
     width: 350px;
     height: 200px;
+    border-radius: 16px 16px 0 0;
+}
+
+.box .item-img-js {
+    width: 300px;
+    height: 180px;
     border-radius: 16px 16px 0 0;
 }
 

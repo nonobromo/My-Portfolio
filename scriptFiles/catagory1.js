@@ -2,7 +2,10 @@ let boxItems;
 export let boxArr = [];
 
 export function createHtmlCards() {
-    const HTML_ITEMS = document.querySelector(".portfolio-items")
+    const HTML_ITEMS = document.querySelector(".portfolio-items");
+    const serviceDiv = document.querySelector(".service");
+    // HTML_ITEMS.style.gridTemplateColumns = "repeat(4, 350px);"
+    // HTML_ITEMS.style.gridTemplateRows = "repeat(2, 400px);"
     fetch("./scriptFiles/htmlCssProjects.json")
         .then(res => res.json())
         .then(data => {

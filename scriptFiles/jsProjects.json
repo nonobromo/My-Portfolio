@@ -51,8 +51,15 @@
     {
         "imgSrc": "portfolioImages/country.png",
         "projectTitle": "Countries API",
-        "description": "An API Based all countries of the world",
+        "description": "Countries of the world",
         "link": "previewPages/countires.html",
+        "btnText": "Project Page"
+    },
+    {
+        "imgSrc": "portfolioImages/war.png",
+        "projectTitle": "War Card Game",
+        "description": "OOP Based Card Game",
+        "link": "/previewPages/cardGame.html",
         "btnText": "Project Page"
     }
 ]
