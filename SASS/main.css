@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -170,6 +171,10 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-around;
+}
+
+.nav-btn > button:nth-child(1) {
+  color: black !important;
 }
 
 .btn > img {

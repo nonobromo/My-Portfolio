@@ -29,6 +29,10 @@
     justify-content: space-around;
 }
 
+.nav-btn>button:nth-child(1) {
+    color: black !important;
+}
+
 .btn>img {
     width: 32px;
 }
