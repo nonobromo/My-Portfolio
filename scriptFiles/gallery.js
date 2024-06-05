@@ -19,8 +19,6 @@ class Gallery {
 
         this.rightArrow.addEventListener("click", () => this.nextImg())
         this.leftArrow.addEventListener("click", () => this.pervImg())
-        console.log(this.images);
-
     }
 
     nextImg() {
