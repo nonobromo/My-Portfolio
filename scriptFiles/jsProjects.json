@@ -30,7 +30,7 @@
     {
         "imgSrc": "portfolioImages/pokedex.png",
         "projectTitle": "Pokedex",
-        "description": "Showcase of all pokemon by types",
+        "description": "Pokemons By Types",
         "link": "previewPages/pokemon.html",
         "btnText": "Project Page"
     },
