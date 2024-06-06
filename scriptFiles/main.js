@@ -11,7 +11,6 @@ const HTML_ITEMS = document.querySelector(".portfolio-items");
 const JS_ITEMS = document.querySelector(".js-items")
 const serviceDiv = document.querySelector(".service");
 const sectionPara = document.querySelector(".port-para");
-let eventHandle;
 
 HTML_BTN.addEventListener("click", () => {
     HTML_ITEMS.style.display = "grid";
