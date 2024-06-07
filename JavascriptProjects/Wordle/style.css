@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #444;
+}
+
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.letter-row {
+    display: flex;
+}
+
+#keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.btn {
+    font-size: 24px;
+    color: #333;
+    border: 2px solid gray;
+}
+
+.btn-bgc {
+    background-color: rgb(219, 111, 10);
+    transition: 100ms ease-in;
+    transform: translateY(-5px);
+}
+
+.btn-bgc-none {
+    background-color: white;
+    transition: 200ms;
+}
+
+.text-state {
+    margin-top: 40px;
+    text-align: center;
+    display: none;
+    font-size: 1.5em;
+    color: white;
+    animation: fade-in 0.5s;
+}
+
+.text-unshow {
+    animation: fade-out 0.5s;
+}
+
+.reset {
+    width: 100px;
+    display: none;
+    margin: 30px auto;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 0;
+        transform: translateY(10px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .btn {
+        font-size: 20px;
+    }
+}
