@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: silver;
+}
+
+.container {
+    width: 100vw;
+    height: 600px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+}
+
+.player-choice {
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.player-choice>.cell:nth-child(1) {
+    background-color: rgb(228, 187, 111);
+}
+
+.player-choice>.cell:nth-child(2) {
+    background-color: rgb(139, 139, 138);
+}
+
+.player-choice>.cell:nth-child(3) {
+    background-color: rgb(180, 0, 24);
+}
+
+button {
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+}
+
+.win-output {
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.win-output>p {
+    font-size: 2rem;
+}
+
+.win-output>p:nth-child(3) {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.win-count {
+    width: 300px;
+    margin: auto;
+    font-size: 2rem;
+    margin-top: 10px;
+    text-align: center;
+}
