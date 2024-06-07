@@ -1,0 +1,9 @@
+    // const word = e.target.value;
+    // cards.innerHTML = '';
+    // reset();
+    // if (word === '' || word === null) {
+    //     cards.innerHTML = '';
+    //     createAllCards();
+    // }
+    // goSearch(word);
+    // createAllCards();

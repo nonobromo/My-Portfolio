@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;1,9..40,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1400px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+.heading {
+    width: 1400px;
+    text-align: center;
+    color: #0019FF;
+    font-size: 60px;
+
+}
+
+.calc-area {
+    background-color: #DFECFF;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.operator-area {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operator-area>label {
+    font-size: 1.5em;
+}
+
+.operator-area>select {
+    width: 50px;
+    font-size: 1.5em;
+}
+
+body>div>div.calc-area>div.operator-area>select:nth-child(4) {
+    width: 75px;
+}
+
+.calc-box {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.calc-box button {
+    width: 300px;
+    height: 80px;
+    background-color: #0019FF;
+    font-size: 36px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+.calc-box p {
+    width: 330px;
+    font-size: 80px;
+}
+
+.calc-box input {
+    border-radius: 8px;
+    width: 300px;
+    height: 80px;
+    border: none;
+    font-size: 40px;
+}
+
+.calc-area>.clear-btn {
+    width: 120px;
+    height: 30px;
+    background-color: #0019FF;
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+}
+
+
+.score-show {
+    width: 1400px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16pt;
+    margin-top: 20px;
+}
+
+.history {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: #0019FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history .line {
+    border: 1px solid #DFECFF;
+    width: 450px;
+    height: 1px;
+}
+
+.result-stats {
+    width: 1400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+h3,
+span {
+    width: 350px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.result-add {
+    width: 1400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:280px) and (max-width:1200px) {
+
+    .container {
+        width: 330px;
+        height: 100vh;
+        margin: auto;
+    }
+
+    .heading {
+        width: 330px;
+        font-size: 30px;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .operator-area {
+        width: 330px;
+        padding: 5px;
+    }
+
+    .operator-area>input {
+        width: 105px;
+    }
+
+    .operator-area>label {
+        font-size: 16px;
+    }
+
+    .calc-area {
+        width: 330px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .calc-box {
+        width: 300px;
+    }
+
+    .calc-box button {
+        width: 90px;
+        font-size: 16px;
+        height: 30px;
+    }
+
+    .calc-box p {
+        width: 90px;
+        font-size: 20px;
+        height: 30px;
+    }
+
+    .calc-box input {
+        width: 90px;
+        height: 30px;
+        font-size: 24px;
+    }
+
+    .score-show {
+        width: 330px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .result-stats {
+        width: 330px;
+        margin: auto;
+    }
+
+    h3 {
+        width: 75px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .result-add {
+        width: 330px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
